@@ -12,10 +12,10 @@
 }
 
 :root{
-	/*--prime: #00ff34;*/
-	--prime: orange;
-/*	--prime: ;
-*/}
+	--prime: #00ff34;
+	/* --prime: #060194; */
+
+}
 body{
 	background-color: #131b2b;
 }
@@ -103,6 +103,7 @@ ol li:hover a {
 	background-position: center;
 	filter: brightness(40%);
 }
+
 
 .highlights {
 	width: 70%;
@@ -237,7 +238,7 @@ span {
 
 .about .content .cols .box {
 	position: relative;
-	height: 550px;
+	height: 750px;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -291,7 +292,7 @@ span {
 .masse .content .frame a {
 	top: 20px;
 	color: var(--prime);
-	background: whitesmoke;
+	background: black;
 	padding: 5px 20px;
 	border: 1.5px solid var(--prime);
 	border-radius: 5px;
@@ -305,7 +306,7 @@ span {
 }
 
 .masse .content .frame a:hover {
-	color: #fff;
+	color: black;
 	background: var(--prime);
 }
 
@@ -401,11 +402,11 @@ span {
 .diet .content .row .cols .heading {
 	font-size: 2em;
 	color: orange;
-	text-transform: capitalize;
+
 }
 
 .diet .content .row:nth-child(odd) .cols .heading {
-	color: #02a3ff;
+	color: var(--prime);
 }
 
 .diet .content .row .cols .boxes {
@@ -422,6 +423,21 @@ span {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+}
+
+.diet .content .row .cols a {
+	position: relative;
+	color: #fff;
+	background: var(--prime);
+	padding: 2px 4px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.diet .content .row .cols a:hover {
+	color: var(--prime);
+	background: black;
 }
 
 /*syle contact section*/
