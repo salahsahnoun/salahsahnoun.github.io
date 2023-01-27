@@ -527,7 +527,34 @@ span {
 }
 
 /*make responsive*/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1080px) and (max-height:2400px) {
+	
+/*common size for all section*/
+.view {
+	width: 100%;
+	min-height: 80vh;
+	position: relative;
+}
+
+/*home section*/
+.home {
+	display: flex;
+	min-height: 70vh;
+	align-items: center;
+	justify-content: center;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+}
+
+.banner {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: url(images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	filter: brightness(40%);
+}
+	
 	.navbar{
 		padding: 0 60px;
 	}
