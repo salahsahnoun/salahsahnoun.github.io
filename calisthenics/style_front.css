@@ -4,6 +4,13 @@
 }
 
 /* HOME SECTION */
+.home2 {
+	display: flex;
+	min-height: 70vh;
+	align-items: center;
+	justify-content: center;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+}
 .banner2 {
 	height: 100%;
 	width: 100%;
@@ -104,3 +111,86 @@
 	position: relative;
 	bottom: 5px;
 }
+
+
+/*make responsive*/
+@media screen and (max-width: 1100px) and (max-height:2400px) {
+	
+	/*common size for all section*/
+	.view {
+		width: 100%;
+		min-height: 80vh;
+		position: relative;
+	}
+	
+	/*home section*/
+	.home2 {
+		display: flex;
+		min-height: 40vh;
+		align-items: center;
+		justify-content: center;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+	}
+		
+		.navbar{
+			padding: 0 60px;
+		}
+		.navbar ol{
+			display: none;
+		}
+	
+		.navbar ol.active{
+			top: 60px;
+			left: 0;
+			width: 100%;
+			display: flex;
+			position: fixed;
+			background: #222;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			height: calc(100% - 60px);
+		}
+	
+		.navbar ol.active li {
+			margin: 8px;
+		}
+	
+		.navbar ol.active li a {
+			font-size: 25px;
+		}
+	
+		.navbar .toggle{
+			height: 25px;
+			width: 25px;
+			margin: auto 0;
+			cursor: pointer;
+			background: url(images/menubar.jpg);
+			background-size: 25px;
+			background-position: center;
+			filter: invert(1);
+			background-repeat: no-repeat;
+		}
+		.navbar .toggle.active{
+			background: url(images/close.png);
+			background-size: 40px;
+			background-position: center;
+			cursor: pointer;
+			filter: invert(1);
+		}
+	
+		.highlights h3 {
+			font-size: 3vw;
+			padding: 5px 10px;
+			border-left: 3px solid var(--prime);
+		}
+		.highlights h1 {
+			font-size: 16vw;
+		}
+	
+		.highlights .join{
+			font-size: 1.8vw;
+			border: 1px solid var(--prime);
+		}
+
+	}
