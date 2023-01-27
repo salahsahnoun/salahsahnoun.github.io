@@ -17,7 +17,7 @@
 
 }
 body{
-	background-color: #131b2b;
+	background-color: #00051e /*#131b2b*/;
 }
 
 /*style barre de menu*/
@@ -34,7 +34,7 @@ body{
 
 .navbar.sticky {
 	padding: 6px 60px;
-	background: #0c1518;
+	background: #00051e /*#0c1518*/;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
