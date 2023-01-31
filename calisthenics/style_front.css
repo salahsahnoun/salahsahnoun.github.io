@@ -13,7 +13,7 @@
 /* HOME SECTION */
 .home2 {
 	display: flex;
-	min-height: 70vh;
+	min-height: 120vh;
 	align-items: center;
 	justify-content: center;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
@@ -125,7 +125,7 @@
 	/*home section*/
 	.home2 {
 		display: flex;
-		min-height: 40vh;
+		min-height: 45vh;
 		align-items: center;
 		justify-content: center;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
