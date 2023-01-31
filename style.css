@@ -578,7 +578,7 @@ span {
 	}
 
 	.navbar ol.active li a {
-		font-size: 25px;
+		font-size: 75px;
 	}
 
 	.navbar .toggle{
@@ -655,7 +655,9 @@ span {
 	}
 	.diet .content .row .cols .boxes{
 		width: 90%;
+		height: 550px;
 		margin: auto;
 	}
+
 
 }
