@@ -528,6 +528,12 @@ span {
 
 /*make responsive*/
 @media screen and (max-width: 1080px) and (max-height:2176px) {
+/*common size for all section*/
+.view {
+	width: 100%;
+	min-height: 40vh;
+	position: relative;
+}
 /*home section*/
 .home {
 	display: flex;
