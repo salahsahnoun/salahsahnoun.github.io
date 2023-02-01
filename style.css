@@ -578,7 +578,7 @@ span {
 	}
 
 	.navbar ol.active li a {
-		font-size: 75px;
+		font-size: 25px;
 	}
 
 	.navbar .toggle{
@@ -612,6 +612,11 @@ span {
 	.highlights .join{
 		font-size: 1.8vw;
 		border: 1px solid var(--prime);
+	}
+	.main {
+		width: 95%;
+		text-align: center;
+		padding-bottom: 20px;
 	}
 	.main h2{
 		font-size: 1.5rem;
