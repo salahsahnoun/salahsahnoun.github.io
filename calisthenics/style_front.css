@@ -194,6 +194,13 @@
 		min-height: 45vh;
 		position: relative;
 	}
+	.content {
+		position: relative;
+		display: flex;
+		width: 100%;
+		padding: 0px 0px;
+		justify-content: start;
+	}
 	/*home section*/
 	.home2 {
 		display: flex;
@@ -268,7 +275,7 @@
 		}
 	
 		.highlights .join{
-			font-size: 1.8vw;
+			font-size: 1.4vw;
 			border: 1px solid var(--prime);
 		}
 
@@ -281,43 +288,13 @@
 		.about .content{
 			 flex-direction: column;
 		}
-		.masse .content .frame{
-			width: 260px;
-			padding: 18px;
-		}
-		.perte .content .frame{
-			width: 350px;
-			padding: 15px 15px 40px 15px;
-		}
-		.perte .content .frame .box{
-			height: 200px;
-		}
-	
-		.perte .content .frame a{
-			border: 1.5px solid var(--prime);
-			padding: 3px 15px;
-		}
-		.diet .content .row{
-			flex-direction: column;
-		}
-		.diet .content .row .cols{
-			width: 100%;
-		}
-		.diet .content .row:nth-child(odd) .a {
-			order: 0;
-		}
-		.diet .content .row .cols .heading{
-			font-size: 13px;
-		}
-		.diet .content .row .cols p{
-			font-size: 13px;
-		}
-		.diet .content .row .cols .boxes{
-			width: 90%;
-			height: 700px;
-			margin: auto;
-		}
 
+		.about .content .cols {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			padding: 20px 20px;
+		}
 		.require .content {
 			flex-wrap: wrap;
 		}

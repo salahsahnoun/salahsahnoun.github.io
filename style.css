@@ -624,6 +624,8 @@ span {
 	.main h6{
 		font-size: 10px;
 	}
+
+	
 	.about .content{
 		 flex-direction: column;
 	}
