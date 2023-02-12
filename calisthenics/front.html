@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FIT-RS</title>
-	<link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="stylesheet" type="text/css" href="style_front.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
 	<link rel="shortcut icon"  href="images/icon.png">
 </head>
@@ -14,14 +13,15 @@
 <!-- -------- Barre de menu ------- -->
 
 <div class="navbar">
-	<a href="#" class="logo2">CALI<B>WIKI</B>.</a>
+	<a href="#" class="logo">CALI<B>WIKI</B>.</a>
 	<div class="toggle" onclick="navToggle();"></div>
 	<ol>
 		<li><a href="../index.html" onclick="navToggle();">Home</a></li>
-		<li><a href="#about" onclick="navToggle();">About us</a></li>
-		<li><a href="#masse" onclick="navToggle();">Weight gain</a></li>
-		<li><a href="#perte" onclick="navToggle();">Weightloss</a></li>
-		<li><a href="front.html" onclick="navToggle();">Calisthenics</a></li>
+		<li><a href="#overview" onclick="navToggle();">Overview</a></li>
+		<li><a href="#liste" onclick="navToggle();">Factors</a></li>
+		<li><a href="#require" onclick="navToggle();">Require</a></li>
+		<li><a href="#skill_list" onclick="navToggle();">Skills</a></li>
+        <li><a href="#next" onclick="navToggle();">Next</a></li>
 		<li><a href="#contact" onclick="navToggle();">Contact</a></li>
 	</ol>
 </div>
@@ -31,7 +31,7 @@
 
 <!-- -------- HOME SECTION ------- -->
 
-<section id="home2" class="home2 view">
+<section id="home" class="home view">
 	<div class="highlights">
 		<h3>PUSH YOURSELF AND ACHIEVE YOUR GOALS</h3>
 		<h1><b>FRONT</b> LEVER</h1><br>
@@ -39,15 +39,15 @@
 			The sport will seek fear to dominate it, fatigue to triumph over it, difficulty to overcome it.<br> You have to set goals before you can achieve them.</p>
 		<button class="join">Join us now</button>
 	</div>
-	<div class="banner2"></div>
+	<div class="banner"></div>
 </section>
 
 
 
 
 
-<!-- -------- Overview SECTION ------- -->
-<section id="about" class="about view">
+<!-- -------- OVERVIEW SECTION ------- -->
+<section id="overview" class="overview view">
 	<div class="main">
 		<h2><span>O</span>verview</h2>
 		<h6>Tout ce qui ne tue pas rend plus fort</h6>
@@ -57,19 +57,13 @@
 			<p>The <b>front lever</b> is a skill that challenges gravity by balancing the body in a horizontal position, parallel to the ground while holding to a bar.
 				<br>
                 <br>
-                The front lever is considered by many as one of the hardest skills in calisthenics, however, it’s rated A in gymnastics (A being the easiest level of difficulty).
+                The front lever is considered by many as one of the hardest skills in calisthenics, however, it is rated A in gymnastics (A being the easiest level of difficulty).
                 Indeed, the front lever is somewhat an easy skill to achieve if you follow a specific, well-constructed plan.
 				<br>
                 <br>
                 This skill combines three important factors that helps the athlete hold the front lever in a straight line.
-                <br>
-                <br>
-                <ol>
-                    <li><a class="a"  href="#core">Core strenght</a></li>
-                    <li><a class="a" href="#pulling">Pulling strenght</a></li>
-                    <!-- <li><a class="a" href="#motor">Motor patterns</a></li> -->
-                </ol>
-			</p>
+            </p>
+			<a href="#">Plus</a>
 		</div>
 		<div class="cols">
 			<div class="box">
@@ -79,8 +73,40 @@
 	</div>
 </section>
 
-<!-- -------- Core SECTION ------- -->
-<section id="core" class="about view">
+
+
+
+<!-- -------- LISTE SECTION ------- -->
+<section id="liste" class="liste view">
+	<div class="main">
+		<h2><span>F</span>actors</h2>
+		<h6>J’essaie de perfectionner mes points forts et de cacher mes faiblesses.</h6>
+	</div>
+
+	<div class="content">
+		<div class="frame">
+			<a href="#core">CORE STRENGHT</a>
+			<br>
+			<br>
+		</div>
+
+		<div class="frame">
+			<a href="#pulling">PULLING STRENGHT</a>
+			<br>
+			<br>
+		</div>
+
+		<div class="frame">
+			<a href="#motor">MOTOR PATTERNS</a>
+			<br>
+			<br>
+		</div>
+        <div class="bgimg"></div>
+	</div>
+</section>
+
+<!-- -------- CORE SECTION ------- -->
+<section class="overview view" id="core">
 	<div class="main">
 		<h2>I-<span>C</span>ore <span>s</span>trenght</h2>
 		<h6>Tout ce qui ne tue pas rend plus fort</h6>
@@ -113,8 +139,8 @@
 	</div>
 </section>
 
-<!-- -------- Pulling SECTION ------- -->
-<section id="pulling" class="about view">
+<!-- -------- PULLING SECTION ------- -->
+<section id="pulling" class="overview view">
 	<div class="main">
 		<h2>II-<span>P</span>ulling <span>s</span>trenght</h2>
 		<h6>Tout ce qui ne tue pas rend plus fort</h6>
@@ -142,9 +168,8 @@
 	</div>
 </section>
 
-
-<!-- -------- Motor SECTION ------- -->
-<section id="motor" class="about view">
+<!-- -------- MOTOR SECTION ------- -->
+<section id="motor" class="overview view">
 	<div class="main">
 		<h2><span>M</span>otor <span>p</span>atterns</h2>
 		<h6>Tout ce qui ne tue pas rend plus fort</h6>
@@ -179,7 +204,8 @@
 	</div>
 </section>
 
-<!-- -------- require SECTION ------- -->
+
+<!-- -------- REQUIRE SECTION ------- -->
 <section id="require" class="require view">
 	<div class="main">
 		<h2><span>R</span>equirements and <span>P</span>rogressions</h2>
@@ -239,9 +265,45 @@
 	</div>
 </section>
 
+<!-- -------- LISTE SECTION ------- -->
+<section id="skill_list" class="liste view">
+	<div class="main">
+		<h2><span>S</span>kills</h2>
+		<h6>J’essaie de perfectionner mes points forts et de cacher mes faiblesses.</h6>
+	</div>
 
-<!-- -------- FRONT SECTION ------- -->
-<section id="diet" class="diet view">
+	<div class="content">
+		<div class="frame">
+			<a href="#tuck">I. Tuck front lever</a>
+			<br>
+			<br>
+		</div>
+
+		<div class="frame">
+			<a href="#advtuck">II. Advanced Tuck front lever</a>
+			<br>
+			<br>
+		</div>
+
+		<div class="frame">
+			<a href="#advplus">III. Advanced Tuck plus</a>
+			<br>
+			<br>
+		</div>
+
+        <div class="frame">
+			<a href="#full">IV. Full front lever</a>
+			<br>
+			<br>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!-- -------- SKILL SECTION ------- -->
+<section id="skill" class="skill view">
 	<div class="main">
 		<h2><span>Let</span>'s do it</h2>
 		<h6>L'exercice est roi, la nutrition est reine. Mettez-les ensemble et vous obtiendrez un royaume ! </h6>
@@ -250,7 +312,7 @@
 	<div class="content">
 		<div class="row">
 			<div class="cols a">
-				<div class="heading">I. Tuck Front lever</div>
+				<div class="heading" id="tuck">I. Tuck Front lever</div>
 				<p>This progression will help you familiarize yourself with the straight arms pulling strength required for the actual skill, it emphasizes on the horizontality of the body and the positioning of the scapula.
                     <br>
                     <br>
@@ -275,7 +337,7 @@
 
 		<div class="row">
 			<div class="cols a">
-				<div class="heading">II. Advanced Tuck Front lever</div>
+				<div class="heading" id="advtuck">II. Advanced Tuck Front lever</div>
 				<p>This progression doesn’t look much different from the previous one, but it is a game changer when it comes to the full front lever and even more advanced variations of the skill. It might look the same, but the strength you will acquire from this progression is incredible.
                     <br>
                     <br>
@@ -294,7 +356,7 @@
 
 		<div class="row">
 			<div class="cols a">
-				<div class="heading">III. Advanced Tuck plus</div>
+				<div class="heading" id="advplus">III. Advanced Tuck plus</div>
 				<p>This progression is just a difficult variation of the last one, and is the transition to the full front lever. 
                     Same goal, higher difficulty; All you have to do is to advance your feet and get closer to the full front lever position.
                     <br>
@@ -310,7 +372,7 @@
 
         <div class="row">
 			<div class="cols a">
-				<div class="heading">III. Advanced Tuck plus : a harder variation</div>
+				<div class="heading">III. Advanced Tuck plus : <br>a harder variation</div>
                 <div class="boxes">
 					<img src="images/front/adv_tuck_plus_plus.png">
 				</div>
@@ -319,7 +381,7 @@
 
 		<div class="row">
 			<div class="cols a">
-				<div class="heading">IV. Full Front lever</div>
+				<div class="heading" id="full">IV. Full Front lever</div>
 				<p>The perfect position of the front lever is the position where we can see a straight line joining the heels, the knees, the hips, and the shoulders.
                     <br>
                     <br>
@@ -358,8 +420,8 @@
 	</div>
 </section>
 
-<!-- -------- require SECTION ------- -->
-<section id="require2" class="require2 view">
+<!-- -------- NEXT SECTION ------- -->
+<section id="next" class="next view">
 	<div class="main">
 		<h2><span>W</span>hat's <span>N</span>ext ?</h2>
 		<h6>Si tu est rapide au festin et lent à la course, mange avec tes pieds et cours avec ta bouche.</h6>
