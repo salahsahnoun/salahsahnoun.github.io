@@ -546,7 +546,7 @@ span {
 }
 
 /*make responsive*/
-@media only screen and (-webkit-min-device-pixel-ratio: 2.5){
+@media only screen and (-webkit-min-device-pixel-ratio: 2){
 /*common size for all section*/
 .view {
 	width: 100%;
