@@ -566,7 +566,7 @@ span {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background: url(images/banner.jpg);
+	background: url(images/.jpg);
 	background-size: cover;
 	background-position: center;
 	filter: brightness(40%);
