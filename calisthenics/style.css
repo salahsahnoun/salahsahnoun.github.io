@@ -595,17 +595,18 @@ span {
 }
 
 /*make responsive*/
-@media only screen and (min-resolution: 2.75dppx){
+@media only screen and (max-width: 393px) and (max-height:700px){
 /*common size for all section*/
 .view {
-	width: 100%;
+	width: 96%;
 	min-height: 40vh;
 	position: relative;
 }
 /*home section*/
 .home {
 	display: flex;
-	min-height: 40vh;
+	width: 100%;
+	min-height: 65vh;
 	align-items: center;
 	justify-content: center;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
@@ -633,12 +634,20 @@ span {
 	transition: 0.5s ease;
 }
 
+.logo {
+	font-size: 1.6em;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 	.navbar ol{
 		display: none;
 	}
 
 	.navbar ol.active{
-		top: 60px;
+		top: 65px;
 		left: 0;
 		width: 100%;
 		display: flex;
@@ -663,14 +672,14 @@ span {
 		width: 15px;
 		margin: auto 0;
 		cursor: pointer;
-		background: url(../salahsahnoun.github.io/images/menubar.jpg);
+		background: url(images/menubar.jpg);
 		background-size: 15px;
 		background-position: center;
 		filter: invert(1);
 		background-repeat: no-repeat;
 	}
 	.navbar .toggle.active{
-		background: url(../salahsahnoun.github.io/images/close.png);
+		background: url(images/close.png);
 		background-size: 40px;
 		background-position: center;
 		cursor: pointer;
@@ -686,29 +695,54 @@ span {
 		font-size: 16vw;
 	}
 
+	.highlights .tagline {
+		font-size: 2.2vw;
+	}
+	
 	.highlights .join{
-		font-size: 1.8vw;
+		font-size: 2.2vw;
 		border: 1px solid var(--prime);
 	}
 	.main {
-		width: 95%;
+		width: 100%;
 		text-align: center;
 		padding-bottom: 20px;
 	}
 	.main h2{
-		font-size: 1.5rem;
+		font-size: 2.2rem;
 	}
 	.main h6{
-		font-size: 10px;
+		font-size: 13px;
 	}
 
 	
 	.overview .content{
 		 flex-direction: column;
 	}
+
+	.overview .content .cols {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		padding: 20px 20px;
+	}
+	.overview .content .cols .box {
+		position: relative;
+		height: 225px;
+		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+	}
+	.overview .content .cols .box img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	
 	.liste .content .frame{
-		width: 260px;
-		padding: 18px;
+		width: 280px;
+		padding: 15px;
 	}
 	.require .content .frame{
 		width: 350px;
