@@ -572,9 +572,24 @@ span {
 	filter: brightness(40%);
 }
 	
-	.navbar{
-		padding: 0 60px;
-	}
+.navbar{
+	width: 100%;
+	display: flex;
+	position: fixed;
+	padding: 30px 40px;
+	background-color: transparent;
+	justify-content: space-between;
+	z-index: 1111;
+	transition: 0.5s ease;
+}
+
+.logo {
+	font-size: 1.6em;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 	.navbar ol{
 		display: none;
 	}
