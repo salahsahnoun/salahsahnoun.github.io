@@ -605,14 +605,14 @@ span {
 		width: 15px;
 		margin: auto 0;
 		cursor: pointer;
-		background: url(../salahsahnoun.github.io/images/menubar.jpg);
+		background: url(images/menubar.jpg);
 		background-size: 15px;
 		background-position: center;
 		filter: invert(1);
 		background-repeat: no-repeat;
 	}
 	.navbar .toggle.active{
-		background: url(../salahsahnoun.github.io/images/close.png);
+		background: url(images/close.png);
 		background-size: 40px;
 		background-position: center;
 		cursor: pointer;
