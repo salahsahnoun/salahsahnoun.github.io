@@ -1,11 +1,11 @@
-pack,Muscle Groups Destroyer,3.99
-pack,Giga Skill Pack,1.99
-pack,Balance Tricks Pack,4.78
-pack,Joints Rehab Pack,0
-program,prog1,0
-program,prog2,0.99
-program,prog3,1.99
-program,prog4,4.87
-program,prog5,10
-program,prog6,0
-program,prog7,0
+pack,Muscle Groups Destroyer,3.99,1,great mg
+pack,Giga Skill Pack,1.99,great skill
+pack,Balance Tricks Pack,4.78,great balance
+pack,Joints Rehab Pack,0,great joints
+program,prog1,0,great prog1
+program,prog2,0.99great prog2
+program,prog3,1.99great prog3
+program,prog4,4.87great prog4
+program,prog5,10great prog5
+program,prog6,0great prog6
+program,prog7,0great prog7
