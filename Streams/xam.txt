@@ -1,4 +1,4 @@
-pack,Muscle Groups Destroyer,3.99,1,great mg
+pack,Muscle Groups Destroyer,3.99,1,great mg,url
 pack,Giga Skill Pack,1.99,1,great skill
 pack,Balance Tricks Pack,4.78,1,great balance
 pack,Joints Rehab Pack,0,1,great joints
