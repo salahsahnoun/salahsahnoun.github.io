@@ -1,11 +1,11 @@
-pack,Muscle Groups Destroyer,3.99,1,great mg,url
-pack,Giga Skill Pack,1.99,1,great skill
-pack,Balance Tricks Pack,4.78,1,great balance
-pack,Joints Rehab Pack,0,1,great joints
-program,prog1,0,1,great prog1
-program,prog2,0.99,1,great prog2
-program,prog3,1.99,1,great prog3
-program,prog4,4.87,1,great prog4
-program,prog5,10,1,great prog5
-program,prog6,0,1,great prog6
-program,prog7,0,1,great prog7
+pack,Muscle Groups Destroyer,3.99,1,great mg,CaliWikiEssentialPack.wikipack
+pack,Giga Skill Pack,1.99,1,great skill,CaliWikiEssentialPack.wikipack
+pack,Balance Tricks Pack,4.78,1,great balance,CaliWikiEssentialPack.wikipack
+pack,Joints Rehab Pack,0,1,great joints,CaliWikiEssentialPack.wikipack
+program,prog1,0,1,great prog1,CaliWikiEssentialPack.wikipack
+program,prog2,0.99,1,great prog2,CaliWikiEssentialPack.wikipack
+program,prog3,1.99,1,great prog3,CaliWikiEssentialPack.wikipack
+program,prog4,4.87,1,great prog4,CaliWikiEssentialPack.wikipack
+program,prog5,10,1,great prog5,CaliWikiEssentialPack.wikipack
+program,prog6,0,1,great prog6,CaliWikiEssentialPack.wikipack
+program,prog7,0,1,great prog7,CaliWikiEssentialPack.wikipack
