@@ -302,12 +302,12 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 131px;
+    min-height: 132px;
   }
 
   .u-section-4 .u-text-1 {
     width: auto;
-    margin: 40px 29px;
+    margin: 40px 15px;
   }
 } .u-section-5 {
   background-image: none;
