@@ -1,0 +1,27 @@
+Exercice Name 
+        string Description 
+        ExerciceType Type Rep / hold
+        string Illustration 
+
+        public int HoldSeconds 15s
+        public int Reps 5reps
+        public int Rest 30s // in seconds
+    }
+
+Set (rounds/circuit)
+    {
+        public string Name { get; set; }
+        public Exercice[] Exercices { get; set; }
+        public int Rest { get; set; } //psa utile 60s
+    }
+
+    public class Sesh
+    {
+        public string Name { get; set; }
+        //warmup
+
+        //workout
+        public Set[] Sets { get; set; }
+
+        //end
+    }
