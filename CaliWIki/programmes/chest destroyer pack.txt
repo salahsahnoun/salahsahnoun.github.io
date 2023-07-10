@@ -1,0 +1,15 @@
+prog illu : program|ChestDestroyer
+
+bench press : Lie flat on a weight bench, grip the bar with hands slightly wider than shoulder-width apart, lower it to your chest, and press it back up, fully extending your arms. Maintain proper form and controlled movements throughout the exercise.
+
+dumbbel flyes :  Lie on a bench with dumbbells in each hand. Extend your arms out to the sides and lower the dumbbells. Bring them back up, squeezing your chest.
+
+knee pushups : On hands and knees, lower your chest toward the ground by bending your elbows, then push back up.
+
+incline benchpress : On an incline bench, lower the barbell to your chest, then push it back up.
+
+inlcine dumbbel flyes : On an incline bench, with a dumbbell in each hand, extend your arms outward and lower the dumbbells to the sides. Bring them back up, squeezing your chest.
+
+decline pushups : Feet elevated, hands on the ground, lower your chest and push back up in decline push-ups.
+
+wide pushups : In wide push-ups, place your hands wider than shoulder-width apart on the ground. Lower your chest towards the ground, then push back up. Maintain proper form and controlled movements throughout the exercise.
